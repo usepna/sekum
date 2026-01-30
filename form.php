@@ -66,8 +66,6 @@ if ($id) {
                             <div class="col-md-4"><label>Agama</label><input type="text" name="agama" class="form-control" value="<?= $p['agama']??'' ?>"></div>
                             <div class="col-md-4"><label>Kebangsaan</label><input type="text" name="kebangsaan" class="form-control" value="<?= $p['kebangsaan']??'Indonesia' ?>"></div>
                             
-                            <div class="col-md-6"><label>Pangkat/Gol</label><input type="text" name="pangkat_golongan" class="form-control" value="<?= $p['pangkat_golongan']??'' ?>"></div>
-                            <div class="col-md-6"><label>Jabatan</label><input type="text" name="jabatan_struktural_fungsional" class="form-control" value="<?= $p['jabatan_struktural_fungsional']??'' ?>"></div>
                             <div class="col-12"><label>Instansi</label><input type="text" name="instansi_induk" class="form-control" value="<?= $p['instansi_induk']??'' ?>"></div>
                             
                             <div class="col-md-3"><label>MK Tahun</label><input type="number" name="masa_kerja_tahun" class="form-control" value="<?= $p['masa_kerja_tahun']??0 ?>"></div>
@@ -83,6 +81,25 @@ if ($id) {
                             <div class="col-md-6"><label>Pensiun Janda</label><input type="number" name="pensiun_janda_rp" class="form-control" value="<?= $p['pensiun_janda_rp']??0 ?>"></div>
                             <div class="col-md-6"><label>Jml Anak (Poin e)</label><input type="number" name="jumlah_anak_seluruhnya" class="form-control" value="<?= $p['jumlah_anak_seluruhnya']??0 ?>"></div>
                         </div>
+						<div class="row">
+							<div class="col-md-4 mb-3">
+								<label class="form-label">Pangkat / Golongan</label>
+								<input type="text" name="pangkat_golongan" class="form-control" value="<?= $p['pangkat_golongan']??'' ?>">
+							</div>
+							<div class="col-md-2 mb-3">
+								<label class="form-label text-primary">TMT Golongan</label>
+								<input type="date" name="tmt_golongan" class="form-control" value="<?= $p['tmt_golongan']??'' ?>">
+							</div>
+							
+							<div class="col-md-4 mb-3">
+								<label class="form-label">Jabatan</label>
+								<input type="text" name="jabatan_struktural_fungsional" class="form-control" value="<?= $p['jabatan_struktural_fungsional']??'' ?>">
+							</div>
+							<div class="col-md-2 mb-3">
+								<label class="form-label text-primary">TMT Jabatan</label>
+								<input type="date" name="tmt_jabatan" class="form-control" value="<?= $p['tmt_jabatan']??'' ?>">
+							</div>
+						</div>
                     </div>
 
                     <div class="tab-pane fade" id="pas">

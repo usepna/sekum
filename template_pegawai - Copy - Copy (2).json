@@ -1,0 +1,884 @@
+[
+  {
+    "nip": "199210202025211012",
+    "no_daftar_gaji": 89,
+    "nama_lengkap": "MUHAMMAD FAISHAL AL-FARISY, S.Tr.Kom.",
+    "tempat_lahir": "BANDUNG",
+    "tanggal_lahir": "1992-10-20",
+    "jenis_kelamin": "-",
+    "agama": "-",
+    "kebangsaan": "Indonesia",
+    "pangkat_golongan": "III/a",
+    "jabatan_struktural_fungsional": "Penata Kelola Perumahan Ahli Pertama",
+    "instansi_induk": "Dinas Perumahan dan Kawasan Permukiman",
+    "masa_kerja_tahun": 0,
+    "masa_kerja_bulan": 0,
+    "keterangan_masa_kerja": "",
+    "peraturan_gaji": "",
+    "gaji_pokok": 0,
+    "alamat_lengkap": "",
+    "jabatan_sampingan": "",
+    "penghasilan_sampingan": 0,
+    "pensiun_janda_rp": 0,
+    "jumlah_anak_seluruhnya": 0,
+    "pasangan": [
+      {
+        "nama_pasangan": "",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "tanggal_perkawinan": "YYYY-MM-DD",
+        "pekerjaan": "Ibu Rumah Tangga",
+        "penghasilan_sebulan": 0,
+        "keterangan": "Istri"
+      }
+    ],
+    "anak": [
+      {
+        "nama_anak": "",
+        "status_anak": "ak",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "sekolah_kuliah_pada": "",
+        "masuk_daftar_gaji": "Ya",
+        "nama_ayah": "",
+        "nama_ibu": "",
+        "tgl_wafat_cerai_ortu": null,
+        "status_bekerja": "Tidak",
+        "keterangan": "",
+        "tidak_dapat_beasiswa": "Ya",
+        "tidak_dapat_ikatan_dinas": "Ya"
+      }
+    ]
+  },
+  {
+    "nip": "199503062025212003",
+    "no_daftar_gaji": 90,
+    "nama_lengkap": "DWI LESTARI NINGSIH, S.T.",
+    "tempat_lahir": "BANDUNG",
+    "tanggal_lahir": "1995-03-06",
+    "jenis_kelamin": "-",
+    "agama": "-",
+    "kebangsaan": "Indonesia",
+    "pangkat_golongan": "III/a",
+    "jabatan_struktural_fungsional": "Penata Kelola Perumahan Ahli Pertama",
+    "instansi_induk": "Dinas Perumahan dan Kawasan Permukiman",
+    "masa_kerja_tahun": 0,
+    "masa_kerja_bulan": 0,
+    "keterangan_masa_kerja": "",
+    "peraturan_gaji": "",
+    "gaji_pokok": 0,
+    "alamat_lengkap": "",
+    "jabatan_sampingan": "",
+    "penghasilan_sampingan": 0,
+    "pensiun_janda_rp": 0,
+    "jumlah_anak_seluruhnya": 0,
+    "pasangan": [
+      {
+        "nama_pasangan": "",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "tanggal_perkawinan": "YYYY-MM-DD",
+        "pekerjaan": "Ibu Rumah Tangga",
+        "penghasilan_sebulan": 0,
+        "keterangan": "Istri"
+      }
+    ],
+    "anak": [
+      {
+        "nama_anak": "",
+        "status_anak": "ak",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "sekolah_kuliah_pada": "",
+        "masuk_daftar_gaji": "Ya",
+        "nama_ayah": "",
+        "nama_ibu": "",
+        "tgl_wafat_cerai_ortu": null,
+        "status_bekerja": "Tidak",
+        "keterangan": "",
+        "tidak_dapat_beasiswa": "Ya",
+        "tidak_dapat_ikatan_dinas": "Ya"
+      }
+    ]
+  },
+  {
+    "nip": "199706222025212006",
+    "no_daftar_gaji": 91,
+    "nama_lengkap": "KIKIE RAFFINA NASIHIN, S.Ars.",
+    "tempat_lahir": "BANDUNG",
+    "tanggal_lahir": "1997-06-22",
+    "jenis_kelamin": "-",
+    "agama": "-",
+    "kebangsaan": "Indonesia",
+    "pangkat_golongan": "III/a",
+    "jabatan_struktural_fungsional": "Penata Kelola Perumahan Ahli Pertama",
+    "instansi_induk": "Dinas Perumahan dan Kawasan Permukiman",
+    "masa_kerja_tahun": 0,
+    "masa_kerja_bulan": 0,
+    "keterangan_masa_kerja": "",
+    "peraturan_gaji": "",
+    "gaji_pokok": 0,
+    "alamat_lengkap": "",
+    "jabatan_sampingan": "",
+    "penghasilan_sampingan": 0,
+    "pensiun_janda_rp": 0,
+    "jumlah_anak_seluruhnya": 0,
+    "pasangan": [
+      {
+        "nama_pasangan": "",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "tanggal_perkawinan": "YYYY-MM-DD",
+        "pekerjaan": "Ibu Rumah Tangga",
+        "penghasilan_sebulan": 0,
+        "keterangan": "Istri"
+      }
+    ],
+    "anak": [
+      {
+        "nama_anak": "",
+        "status_anak": "ak",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "sekolah_kuliah_pada": "",
+        "masuk_daftar_gaji": "Ya",
+        "nama_ayah": "",
+        "nama_ibu": "",
+        "tgl_wafat_cerai_ortu": null,
+        "status_bekerja": "Tidak",
+        "keterangan": "",
+        "tidak_dapat_beasiswa": "Ya",
+        "tidak_dapat_ikatan_dinas": "Ya"
+      }
+    ]
+  },
+  {
+    "nip": "199801022025212002",
+    "no_daftar_gaji": 92,
+    "nama_lengkap": "DIANA SARI, S.AP",
+    "tempat_lahir": "TASIKMALAYA",
+    "tanggal_lahir": "1998-01-02",
+    "jenis_kelamin": "-",
+    "agama": "-",
+    "kebangsaan": "Indonesia",
+    "pangkat_golongan": "III/a",
+    "jabatan_struktural_fungsional": "Penata Kelola Perumahan Ahli Pertama",
+    "instansi_induk": "Dinas Perumahan dan Kawasan Permukiman",
+    "masa_kerja_tahun": 0,
+    "masa_kerja_bulan": 0,
+    "keterangan_masa_kerja": "",
+    "peraturan_gaji": "",
+    "gaji_pokok": 0,
+    "alamat_lengkap": "",
+    "jabatan_sampingan": "",
+    "penghasilan_sampingan": 0,
+    "pensiun_janda_rp": 0,
+    "jumlah_anak_seluruhnya": 0,
+    "pasangan": [
+      {
+        "nama_pasangan": "",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "tanggal_perkawinan": "YYYY-MM-DD",
+        "pekerjaan": "Ibu Rumah Tangga",
+        "penghasilan_sebulan": 0,
+        "keterangan": "Istri"
+      }
+    ],
+    "anak": [
+      {
+        "nama_anak": "",
+        "status_anak": "ak",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "sekolah_kuliah_pada": "",
+        "masuk_daftar_gaji": "Ya",
+        "nama_ayah": "",
+        "nama_ibu": "",
+        "tgl_wafat_cerai_ortu": null,
+        "status_bekerja": "Tidak",
+        "keterangan": "",
+        "tidak_dapat_beasiswa": "Ya",
+        "tidak_dapat_ikatan_dinas": "Ya"
+      }
+    ]
+  },
+  {
+    "nip": "196905162009011004",
+    "no_daftar_gaji": 93,
+    "nama_lengkap": "AAN SETIAWAN",
+    "tempat_lahir": "Garut",
+    "tanggal_lahir": "1969-05-16",
+    "jenis_kelamin": "-",
+    "agama": "-",
+    "kebangsaan": "Indonesia",
+    "pangkat_golongan": "III/a",
+    "jabatan_struktural_fungsional": "Operator Layanan Operasional (5)",
+    "instansi_induk": "Dinas Perumahan dan Kawasan Permukiman",
+    "masa_kerja_tahun": 17,
+    "masa_kerja_bulan": 7,
+    "keterangan_masa_kerja": "",
+    "peraturan_gaji": "",
+    "gaji_pokok": 0,
+    "alamat_lengkap": "",
+    "jabatan_sampingan": "",
+    "penghasilan_sampingan": 0,
+    "pensiun_janda_rp": 0,
+    "jumlah_anak_seluruhnya": 0,
+    "pasangan": [
+      {
+        "nama_pasangan": "",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "tanggal_perkawinan": "YYYY-MM-DD",
+        "pekerjaan": "Ibu Rumah Tangga",
+        "penghasilan_sebulan": 0,
+        "keterangan": "Istri"
+      }
+    ],
+    "anak": [
+      {
+        "nama_anak": "",
+        "status_anak": "ak",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "sekolah_kuliah_pada": "",
+        "masuk_daftar_gaji": "Ya",
+        "nama_ayah": "",
+        "nama_ibu": "",
+        "tgl_wafat_cerai_ortu": null,
+        "status_bekerja": "Tidak",
+        "keterangan": "",
+        "tidak_dapat_beasiswa": "Ya",
+        "tidak_dapat_ikatan_dinas": "Ya"
+      }
+    ]
+  },
+  {
+    "nip": "197902202009011005",
+    "no_daftar_gaji": 94,
+    "nama_lengkap": "TRI MULYONO",
+    "tempat_lahir": "Purworejo",
+    "tanggal_lahir": "1979-02-20",
+    "jenis_kelamin": "-",
+    "agama": "-",
+    "kebangsaan": "Indonesia",
+    "pangkat_golongan": "III/a",
+    "jabatan_struktural_fungsional": "Operator Layanan Operasional (5)",
+    "instansi_induk": "Dinas Perumahan dan Kawasan Permukiman",
+    "masa_kerja_tahun": 17,
+    "masa_kerja_bulan": 3,
+    "keterangan_masa_kerja": "",
+    "peraturan_gaji": "",
+    "gaji_pokok": 0,
+    "alamat_lengkap": "",
+    "jabatan_sampingan": "",
+    "penghasilan_sampingan": 0,
+    "pensiun_janda_rp": 0,
+    "jumlah_anak_seluruhnya": 0,
+    "pasangan": [
+      {
+        "nama_pasangan": "",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "tanggal_perkawinan": "YYYY-MM-DD",
+        "pekerjaan": "Ibu Rumah Tangga",
+        "penghasilan_sebulan": 0,
+        "keterangan": "Istri"
+      }
+    ],
+    "anak": [
+      {
+        "nama_anak": "",
+        "status_anak": "ak",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "sekolah_kuliah_pada": "",
+        "masuk_daftar_gaji": "Ya",
+        "nama_ayah": "",
+        "nama_ibu": "",
+        "tgl_wafat_cerai_ortu": null,
+        "status_bekerja": "Tidak",
+        "keterangan": "",
+        "tidak_dapat_beasiswa": "Ya",
+        "tidak_dapat_ikatan_dinas": "Ya"
+      }
+    ]
+  },
+  {
+    "nip": "197907122009011005",
+    "no_daftar_gaji": 95,
+    "nama_lengkap": "AGUS SETIAWAN",
+    "tempat_lahir": "Bandung",
+    "tanggal_lahir": "1979-07-12",
+    "jenis_kelamin": "-",
+    "agama": "-",
+    "kebangsaan": "Indonesia",
+    "pangkat_golongan": "III/a",
+    "jabatan_struktural_fungsional": "Penelaah Teknis Kebijakan",
+    "instansi_induk": "Dinas Perumahan dan Kawasan Permukiman",
+    "masa_kerja_tahun": 17,
+    "masa_kerja_bulan": 3,
+    "keterangan_masa_kerja": "",
+    "peraturan_gaji": "",
+    "gaji_pokok": 0,
+    "alamat_lengkap": "",
+    "jabatan_sampingan": "",
+    "penghasilan_sampingan": 0,
+    "pensiun_janda_rp": 0,
+    "jumlah_anak_seluruhnya": 0,
+    "pasangan": [
+      {
+        "nama_pasangan": "",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "tanggal_perkawinan": "YYYY-MM-DD",
+        "pekerjaan": "Ibu Rumah Tangga",
+        "penghasilan_sebulan": 0,
+        "keterangan": "Istri"
+      }
+    ],
+    "anak": [
+      {
+        "nama_anak": "",
+        "status_anak": "ak",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "sekolah_kuliah_pada": "",
+        "masuk_daftar_gaji": "Ya",
+        "nama_ayah": "",
+        "nama_ibu": "",
+        "tgl_wafat_cerai_ortu": null,
+        "status_bekerja": "Tidak",
+        "keterangan": "",
+        "tidak_dapat_beasiswa": "Ya",
+        "tidak_dapat_ikatan_dinas": "Ya"
+      }
+    ]
+  },
+  {
+    "nip": "197911142009011004",
+    "no_daftar_gaji": 96,
+    "nama_lengkap": "RANLI S JAUHARI",
+    "tempat_lahir": "Bandung",
+    "tanggal_lahir": "1979-11-14",
+    "jenis_kelamin": "-",
+    "agama": "-",
+    "kebangsaan": "Indonesia",
+    "pangkat_golongan": "III/a",
+    "jabatan_struktural_fungsional": "Pengelola Layanan Operasional",
+    "instansi_induk": "Dinas Perumahan dan Kawasan Permukiman",
+    "masa_kerja_tahun": 17,
+    "masa_kerja_bulan": 3,
+    "keterangan_masa_kerja": "",
+    "peraturan_gaji": "",
+    "gaji_pokok": 0,
+    "alamat_lengkap": "",
+    "jabatan_sampingan": "",
+    "penghasilan_sampingan": 0,
+    "pensiun_janda_rp": 0,
+    "jumlah_anak_seluruhnya": 0,
+    "pasangan": [
+      {
+        "nama_pasangan": "",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "tanggal_perkawinan": "YYYY-MM-DD",
+        "pekerjaan": "Ibu Rumah Tangga",
+        "penghasilan_sebulan": 0,
+        "keterangan": "Istri"
+      }
+    ],
+    "anak": [
+      {
+        "nama_anak": "",
+        "status_anak": "ak",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "sekolah_kuliah_pada": "",
+        "masuk_daftar_gaji": "Ya",
+        "nama_ayah": "",
+        "nama_ibu": "",
+        "tgl_wafat_cerai_ortu": null,
+        "status_bekerja": "Tidak",
+        "keterangan": "",
+        "tidak_dapat_beasiswa": "Ya",
+        "tidak_dapat_ikatan_dinas": "Ya"
+      }
+    ]
+  },
+  {
+    "nip": "196905122009011002",
+    "no_daftar_gaji": 97,
+    "nama_lengkap": "MOCH DJAFFARSYAM",
+    "tempat_lahir": "Bandung",
+    "tanggal_lahir": "1969-05-12",
+    "jenis_kelamin": "-",
+    "agama": "-",
+    "kebangsaan": "Indonesia",
+    "pangkat_golongan": "III/a",
+    "jabatan_struktural_fungsional": "Operator Layanan Operasional (5)",
+    "instansi_induk": "Dinas Perumahan dan Kawasan Permukiman",
+    "masa_kerja_tahun": 15,
+    "masa_kerja_bulan": 7,
+    "keterangan_masa_kerja": "",
+    "peraturan_gaji": "",
+    "gaji_pokok": 0,
+    "alamat_lengkap": "",
+    "jabatan_sampingan": "",
+    "penghasilan_sampingan": 0,
+    "pensiun_janda_rp": 0,
+    "jumlah_anak_seluruhnya": 0,
+    "pasangan": [
+      {
+        "nama_pasangan": "",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "tanggal_perkawinan": "YYYY-MM-DD",
+        "pekerjaan": "Ibu Rumah Tangga",
+        "penghasilan_sebulan": 0,
+        "keterangan": "Istri"
+      }
+    ],
+    "anak": [
+      {
+        "nama_anak": "",
+        "status_anak": "ak",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "sekolah_kuliah_pada": "",
+        "masuk_daftar_gaji": "Ya",
+        "nama_ayah": "",
+        "nama_ibu": "",
+        "tgl_wafat_cerai_ortu": null,
+        "status_bekerja": "Tidak",
+        "keterangan": "",
+        "tidak_dapat_beasiswa": "Ya",
+        "tidak_dapat_ikatan_dinas": "Ya"
+      }
+    ]
+  },
+  {
+    "nip": "199207252025041002",
+    "no_daftar_gaji": 98,
+    "nama_lengkap": "MUHAMMAD ZAIN AKHIRUDIN PANGESTU, S.T.",
+    "tempat_lahir": "BANDUNG",
+    "tanggal_lahir": "1992-07-25",
+    "jenis_kelamin": "-",
+    "agama": "-",
+    "kebangsaan": "Indonesia",
+    "pangkat_golongan": "III/a",
+    "jabatan_struktural_fungsional": "Teknisi Sarana Dan Prasarana",
+    "instansi_induk": "Dinas Perumahan dan Kawasan Permukiman",
+    "masa_kerja_tahun": 0,
+    "masa_kerja_bulan": 0,
+    "keterangan_masa_kerja": "",
+    "peraturan_gaji": "",
+    "gaji_pokok": 0,
+    "alamat_lengkap": "",
+    "jabatan_sampingan": "",
+    "penghasilan_sampingan": 0,
+    "pensiun_janda_rp": 0,
+    "jumlah_anak_seluruhnya": 0,
+    "pasangan": [
+      {
+        "nama_pasangan": "",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "tanggal_perkawinan": "YYYY-MM-DD",
+        "pekerjaan": "Ibu Rumah Tangga",
+        "penghasilan_sebulan": 0,
+        "keterangan": "Istri"
+      }
+    ],
+    "anak": [
+      {
+        "nama_anak": "",
+        "status_anak": "ak",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "sekolah_kuliah_pada": "",
+        "masuk_daftar_gaji": "Ya",
+        "nama_ayah": "",
+        "nama_ibu": "",
+        "tgl_wafat_cerai_ortu": null,
+        "status_bekerja": "Tidak",
+        "keterangan": "",
+        "tidak_dapat_beasiswa": "Ya",
+        "tidak_dapat_ikatan_dinas": "Ya"
+      }
+    ]
+  },
+  {
+    "nip": "199910012022021002",
+    "no_daftar_gaji": 99,
+    "nama_lengkap": "NAUFAL AL-ISYRAQI HERRES, S.Ak",
+    "tempat_lahir": "Bandung",
+    "tanggal_lahir": "1999-10-01",
+    "jenis_kelamin": "-",
+    "agama": "-",
+    "kebangsaan": "Indonesia",
+    "pangkat_golongan": "III/a",
+    "jabatan_struktural_fungsional": "Pengolah Data Dan Informasi",
+    "instansi_induk": "Dinas Perumahan dan Kawasan Permukiman",
+    "masa_kerja_tahun": 1,
+    "masa_kerja_bulan": 8,
+    "keterangan_masa_kerja": "",
+    "peraturan_gaji": "",
+    "gaji_pokok": 0,
+    "alamat_lengkap": "",
+    "jabatan_sampingan": "",
+    "penghasilan_sampingan": 0,
+    "pensiun_janda_rp": 0,
+    "jumlah_anak_seluruhnya": 0,
+    "pasangan": [
+      {
+        "nama_pasangan": "",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "tanggal_perkawinan": "YYYY-MM-DD",
+        "pekerjaan": "Ibu Rumah Tangga",
+        "penghasilan_sebulan": 0,
+        "keterangan": "Istri"
+      }
+    ],
+    "anak": [
+      {
+        "nama_anak": "",
+        "status_anak": "ak",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "sekolah_kuliah_pada": "",
+        "masuk_daftar_gaji": "Ya",
+        "nama_ayah": "",
+        "nama_ibu": "",
+        "tgl_wafat_cerai_ortu": null,
+        "status_bekerja": "Tidak",
+        "keterangan": "",
+        "tidak_dapat_beasiswa": "Ya",
+        "tidak_dapat_ikatan_dinas": "Ya"
+      }
+    ]
+  },
+  {
+    "nip": "198305112010011006",
+    "no_daftar_gaji": 100,
+    "nama_lengkap": "DANU NUGRAHA",
+    "tempat_lahir": "Bandung",
+    "tanggal_lahir": "1983-05-11",
+    "jenis_kelamin": "-",
+    "agama": "-",
+    "kebangsaan": "Indonesia",
+    "pangkat_golongan": "II/d",
+    "jabatan_struktural_fungsional": "Pengelola Layanan Operasional",
+    "instansi_induk": "Dinas Perumahan dan Kawasan Permukiman",
+    "masa_kerja_tahun": 17,
+    "masa_kerja_bulan": 5,
+    "keterangan_masa_kerja": "",
+    "peraturan_gaji": "",
+    "gaji_pokok": 0,
+    "alamat_lengkap": "",
+    "jabatan_sampingan": "",
+    "penghasilan_sampingan": 0,
+    "pensiun_janda_rp": 0,
+    "jumlah_anak_seluruhnya": 0,
+    "pasangan": [
+      {
+        "nama_pasangan": "",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "tanggal_perkawinan": "YYYY-MM-DD",
+        "pekerjaan": "Ibu Rumah Tangga",
+        "penghasilan_sebulan": 0,
+        "keterangan": "Istri"
+      }
+    ],
+    "anak": [
+      {
+        "nama_anak": "",
+        "status_anak": "ak",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "sekolah_kuliah_pada": "",
+        "masuk_daftar_gaji": "Ya",
+        "nama_ayah": "",
+        "nama_ibu": "",
+        "tgl_wafat_cerai_ortu": null,
+        "status_bekerja": "Tidak",
+        "keterangan": "",
+        "tidak_dapat_beasiswa": "Ya",
+        "tidak_dapat_ikatan_dinas": "Ya"
+      }
+    ]
+  },
+  {
+    "nip": "198404102010011014",
+    "no_daftar_gaji": 101,
+    "nama_lengkap": "ADANG RIZAL",
+    "tempat_lahir": "Bandung",
+    "tanggal_lahir": "1984-04-10",
+    "jenis_kelamin": "-",
+    "agama": "-",
+    "kebangsaan": "Indonesia",
+    "pangkat_golongan": "II/d",
+    "jabatan_struktural_fungsional": "Pengelola Layanan Operasional",
+    "instansi_induk": "Dinas Perumahan dan Kawasan Permukiman",
+    "masa_kerja_tahun": 17,
+    "masa_kerja_bulan": 5,
+    "keterangan_masa_kerja": "",
+    "peraturan_gaji": "",
+    "gaji_pokok": 0,
+    "alamat_lengkap": "",
+    "jabatan_sampingan": "",
+    "penghasilan_sampingan": 0,
+    "pensiun_janda_rp": 0,
+    "jumlah_anak_seluruhnya": 0,
+    "pasangan": [
+      {
+        "nama_pasangan": "",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "tanggal_perkawinan": "YYYY-MM-DD",
+        "pekerjaan": "Ibu Rumah Tangga",
+        "penghasilan_sebulan": 0,
+        "keterangan": "Istri"
+      }
+    ],
+    "anak": [
+      {
+        "nama_anak": "",
+        "status_anak": "ak",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "sekolah_kuliah_pada": "",
+        "masuk_daftar_gaji": "Ya",
+        "nama_ayah": "",
+        "nama_ibu": "",
+        "tgl_wafat_cerai_ortu": null,
+        "status_bekerja": "Tidak",
+        "keterangan": "",
+        "tidak_dapat_beasiswa": "Ya",
+        "tidak_dapat_ikatan_dinas": "Ya"
+      }
+    ]
+  },
+  {
+    "nip": "198504112010012003",
+    "no_daftar_gaji": 102,
+    "nama_lengkap": "AFRI RISA FAUZIAH",
+    "tempat_lahir": "Cimahi",
+    "tanggal_lahir": "1985-04-11",
+    "jenis_kelamin": "-",
+    "agama": "-",
+    "kebangsaan": "Indonesia",
+    "pangkat_golongan": "II/d",
+    "jabatan_struktural_fungsional": "Pengadministrasi Perkantoran",
+    "instansi_induk": "Dinas Perumahan dan Kawasan Permukiman",
+    "masa_kerja_tahun": 17,
+    "masa_kerja_bulan": 3,
+    "keterangan_masa_kerja": "",
+    "peraturan_gaji": "",
+    "gaji_pokok": 0,
+    "alamat_lengkap": "",
+    "jabatan_sampingan": "",
+    "penghasilan_sampingan": 0,
+    "pensiun_janda_rp": 0,
+    "jumlah_anak_seluruhnya": 0,
+    "pasangan": [
+      {
+        "nama_pasangan": "",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "tanggal_perkawinan": "YYYY-MM-DD",
+        "pekerjaan": "Ibu Rumah Tangga",
+        "penghasilan_sebulan": 0,
+        "keterangan": "Istri"
+      }
+    ],
+    "anak": [
+      {
+        "nama_anak": "",
+        "status_anak": "ak",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "sekolah_kuliah_pada": "",
+        "masuk_daftar_gaji": "Ya",
+        "nama_ayah": "",
+        "nama_ibu": "",
+        "tgl_wafat_cerai_ortu": null,
+        "status_bekerja": "Tidak",
+        "keterangan": "",
+        "tidak_dapat_beasiswa": "Ya",
+        "tidak_dapat_ikatan_dinas": "Ya"
+      }
+    ]
+  },
+  {
+    "nip": "197811112009011004",
+    "no_daftar_gaji": 103,
+    "nama_lengkap": "CUCU MULYANA",
+    "tempat_lahir": "Bandung",
+    "tanggal_lahir": "1978-11-11",
+    "jenis_kelamin": "-",
+    "agama": "-",
+    "kebangsaan": "Indonesia",
+    "pangkat_golongan": "II/d",
+    "jabatan_struktural_fungsional": "Operator Layanan Operasional (5)",
+    "instansi_induk": "Dinas Perumahan dan Kawasan Permukiman",
+    "masa_kerja_tahun": 21,
+    "masa_kerja_bulan": 5,
+    "keterangan_masa_kerja": "",
+    "peraturan_gaji": "",
+    "gaji_pokok": 0,
+    "alamat_lengkap": "",
+    "jabatan_sampingan": "",
+    "penghasilan_sampingan": 0,
+    "pensiun_janda_rp": 0,
+    "jumlah_anak_seluruhnya": 0,
+    "pasangan": [
+      {
+        "nama_pasangan": "",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "tanggal_perkawinan": "YYYY-MM-DD",
+        "pekerjaan": "Ibu Rumah Tangga",
+        "penghasilan_sebulan": 0,
+        "keterangan": "Istri"
+      }
+    ],
+    "anak": [
+      {
+        "nama_anak": "",
+        "status_anak": "ak",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "sekolah_kuliah_pada": "",
+        "masuk_daftar_gaji": "Ya",
+        "nama_ayah": "",
+        "nama_ibu": "",
+        "tgl_wafat_cerai_ortu": null,
+        "status_bekerja": "Tidak",
+        "keterangan": "",
+        "tidak_dapat_beasiswa": "Ya",
+        "tidak_dapat_ikatan_dinas": "Ya"
+      }
+    ]
+  },
+  {
+    "nip": "197201122007011008",
+    "no_daftar_gaji": 104,
+    "nama_lengkap": "MAMAN YAMIN",
+    "tempat_lahir": "Garut",
+    "tanggal_lahir": "1972-01-12",
+    "jenis_kelamin": "-",
+    "agama": "-",
+    "kebangsaan": "Indonesia",
+    "pangkat_golongan": "II/d",
+    "jabatan_struktural_fungsional": "Pengelola Layanan Operasional",
+    "instansi_induk": "Dinas Perumahan dan Kawasan Permukiman",
+    "masa_kerja_tahun": 27,
+    "masa_kerja_bulan": 11,
+    "keterangan_masa_kerja": "",
+    "peraturan_gaji": "",
+    "gaji_pokok": 0,
+    "alamat_lengkap": "",
+    "jabatan_sampingan": "",
+    "penghasilan_sampingan": 0,
+    "pensiun_janda_rp": 0,
+    "jumlah_anak_seluruhnya": 0,
+    "pasangan": [
+      {
+        "nama_pasangan": "",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "tanggal_perkawinan": "YYYY-MM-DD",
+        "pekerjaan": "Ibu Rumah Tangga",
+        "penghasilan_sebulan": 0,
+        "keterangan": "Istri"
+      }
+    ],
+    "anak": [
+      {
+        "nama_anak": "",
+        "status_anak": "ak",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "sekolah_kuliah_pada": "",
+        "masuk_daftar_gaji": "Ya",
+        "nama_ayah": "",
+        "nama_ibu": "",
+        "tgl_wafat_cerai_ortu": null,
+        "status_bekerja": "Tidak",
+        "keterangan": "",
+        "tidak_dapat_beasiswa": "Ya",
+        "tidak_dapat_ikatan_dinas": "Ya"
+      }
+    ]
+  },
+  {
+    "nip": "197904232007011004",
+    "no_daftar_gaji": 105,
+    "nama_lengkap": "MA`MUN SUDIRMAN",
+    "tempat_lahir": "Bandung",
+    "tanggal_lahir": "1979-04-23",
+    "jenis_kelamin": "-",
+    "agama": "-",
+    "kebangsaan": "Indonesia",
+    "pangkat_golongan": "II/d",
+    "jabatan_struktural_fungsional": "Operator Layanan Operasional (5)",
+    "instansi_induk": "Dinas Perumahan dan Kawasan Permukiman",
+    "masa_kerja_tahun": 23,
+    "masa_kerja_bulan": 11,
+    "keterangan_masa_kerja": "",
+    "peraturan_gaji": "",
+    "gaji_pokok": 0,
+    "alamat_lengkap": "",
+    "jabatan_sampingan": "",
+    "penghasilan_sampingan": 0,
+    "pensiun_janda_rp": 0,
+    "jumlah_anak_seluruhnya": 0,
+    "pasangan": [
+      {
+        "nama_pasangan": "",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "tanggal_perkawinan": "YYYY-MM-DD",
+        "pekerjaan": "Ibu Rumah Tangga",
+        "penghasilan_sebulan": 0,
+        "keterangan": "Istri"
+      }
+    ],
+    "anak": [
+      {
+        "nama_anak": "",
+        "status_anak": "ak",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "sekolah_kuliah_pada": "",
+        "masuk_daftar_gaji": "Ya",
+        "nama_ayah": "",
+        "nama_ibu": "",
+        "tgl_wafat_cerai_ortu": null,
+        "status_bekerja": "Tidak",
+        "keterangan": "",
+        "tidak_dapat_beasiswa": "Ya",
+        "tidak_dapat_ikatan_dinas": "Ya"
+      }
+    ]
+  },
+  {
+    "nip": "197702212008011005",
+    "no_daftar_gaji": 106,
+    "nama_lengkap": "RACHMAT SETIA",
+    "tempat_lahir": "Bandung",
+    "tanggal_lahir": "1977-02-21",
+    "jenis_kelamin": "-",
+    "agama": "-",
+    "kebangsaan": "Indonesia",
+    "pangkat_golongan": "II/d",
+    "jabatan_struktural_fungsional": "Pengelola Layanan Operasional",
+    "instansi_induk": "Dinas Perumahan dan Kawasan Permukiman",
+    "masa_kerja_tahun": 27,
+    "masa_kerja_bulan": 6,
+    "keterangan_masa_kerja": "",
+    "peraturan_gaji": "",
+    "gaji_pokok": 0,
+    "alamat_lengkap": "",
+    "jabatan_sampingan": "",
+    "penghasilan_sampingan": 0,
+    "pensiun_janda_rp": 0,
+    "jumlah_anak_seluruhnya": 0,
+    "pasangan": [
+      {
+        "nama_pasangan": "",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "tanggal_perkawinan": "YYYY-MM-DD",
+        "pekerjaan": "Ibu Rumah Tangga",
+        "penghasilan_sebulan": 0,
+        "keterangan": "Istri"
+      }
+    ],
+    "anak": [
+      {
+        "nama_anak": "",
+        "status_anak": "ak",
+        "tanggal_lahir": "YYYY-MM-DD",
+        "sekolah_kuliah_pada": "",
+        "masuk_daftar_gaji": "Ya",
+        "nama_ayah": "",
+        "nama_ibu": "",
+        "tgl_wafat_cerai_ortu": null,
+        "status_bekerja": "Tidak",
+        "keterangan": "",
+        "tidak_dapat_beasiswa": "Ya",
+        "tidak_dapat_ikatan_dinas": "Ya"
+      }
+    ]
+  }
+]
