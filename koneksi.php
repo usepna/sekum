@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-$user = "root";
-$pass = "";
-$db   = "db_sktk_baru"; // Pastikan nama database sesuai dengan SQL baru
+$user = "mysql";
+$pass = "60jlkD9DXehj1cWq7ncfMa6UdGh8Qgq5YxWKM5EmtDnEaqbDXUJYIg5Iw5thLdfd";
+$db   = "k0kc04o4gswwoggo0o04440s"; // Pastikan nama database sesuai dengan SQL baru
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 if (!$conn) { die("Koneksi gagal: " . mysqli_connect_error()); }
@@ -20,4 +20,5 @@ function tgl_indo($tanggal){
     $split = explode('-', $tanggal);
     return $split[2] . ' ' . $bulan[ (int)$split[1] ] . ' ' . $split[0];
 }
+
 ?>
