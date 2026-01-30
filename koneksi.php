@@ -10,7 +10,6 @@ $conn = mysqli_connect($host, $user, $pass, $db);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-// DO NOT put a ?> tag at the end to avoid accidental whitespace
 
 // Helper fungsi format rupiah
 function format_rupiah($angka){
