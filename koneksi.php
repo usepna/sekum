@@ -1,11 +1,16 @@
 <?php
-$host = "k0kc04o4gswwoggo0o04440s";
-$user = "mysql";
-$pass = "60jlkD9DXehj1cWq7ncfMa6UdGh8Qgq5YxWKM5EmtDnEaqbDXUJYIg5Iw5thLdfd";
-$db   = "default"; // Pastikan nama database sesuai dengan SQL baru
+// koneksi.php
+$host = 'mysql'; 
+$user = 'mysql'; 
+$pass = '60jlkD9DXehj1cWq7ncfMa6UdGh8Qgq5YxWKM5EmtDnEaqbDXUJYlg5lw5thLdfd'; 
+$db   = 'default'; 
 
 $conn = mysqli_connect($host, $user, $pass, $db);
-if (!$conn) { die("Koneksi gagal: " . mysqli_connect_error()); }
+
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+// DO NOT put a ?> tag at the end to avoid accidental whitespace
 
 // Helper fungsi format rupiah
 function format_rupiah($angka){
@@ -22,6 +27,7 @@ function tgl_indo($tanggal){
 }
 
 ?>
+
 
 
 
