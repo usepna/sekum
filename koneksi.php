@@ -1,6 +1,6 @@
 <?php
 // koneksi.php
-$host = 'mysql'; 
+$host = 'k0kc04o4gswwoggo0o04440s'; 
 $user = 'mysql'; 
 $pass = '60jlkD9DXehj1cWq7ncfMa6UdGh8Qgq5YxWKM5EmtDnEaqbDXUJYlg5lw5thLdfd'; 
 $db   = 'default'; 
@@ -26,6 +26,7 @@ function tgl_indo($tanggal){
 }
 
 ?>
+
 
 
 
