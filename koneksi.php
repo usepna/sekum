@@ -6,10 +6,7 @@ $pass = '60jlkD9DXehj1cWq7ncfMa6UdGh8Qgq5YxWKM5EmtDnEaqbDXUJYlg5lw5thLdfd';
 $db   = 'default'; 
 
 $conn = mysqli_connect($host, $user, $pass, $db);
-
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
+if (!$conn) { die("Koneksi gagal: " . mysqli_connect_error()); }
 
 // Helper fungsi format rupiah
 function format_rupiah($angka){
@@ -24,8 +21,8 @@ function tgl_indo($tanggal){
     $split = explode('-', $tanggal);
     return $split[2] . ' ' . $bulan[ (int)$split[1] ] . ' ' . $split[0];
 }
-
 ?>
+
 
 
 
