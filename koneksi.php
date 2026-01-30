@@ -1,8 +1,8 @@
 <?php
-$host = "mysql";
+$host = "k0kc04o4gswwoggo0o04440s";
 $user = "mysql";
 $pass = "60jlkD9DXehj1cWq7ncfMa6UdGh8Qgq5YxWKM5EmtDnEaqbDXUJYIg5Iw5thLdfd";
-$db   = "k0kc04o4gswwoggo0o04440s"; // Pastikan nama database sesuai dengan SQL baru
+$db   = "mysql"; // Pastikan nama database sesuai dengan SQL baru
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 if (!$conn) { die("Koneksi gagal: " . mysqli_connect_error()); }
@@ -22,4 +22,5 @@ function tgl_indo($tanggal){
 }
 
 ?>
+
 
