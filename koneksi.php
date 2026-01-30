@@ -1,5 +1,5 @@
 <?php
-$host = "localhost";
+$host = "mysql";
 $user = "mysql";
 $pass = "60jlkD9DXehj1cWq7ncfMa6UdGh8Qgq5YxWKM5EmtDnEaqbDXUJYIg5Iw5thLdfd";
 $db   = "k0kc04o4gswwoggo0o04440s"; // Pastikan nama database sesuai dengan SQL baru
@@ -22,3 +22,4 @@ function tgl_indo($tanggal){
 }
 
 ?>
+
