@@ -105,11 +105,7 @@ function get_sort_icon($col_name, $current_col, $current_ord) {
                             <td><?= tgl_indo($row['tmt_jabatan']) ?></td> <td><?= $row['pangkat_golongan'] ?></td>
                             <td><?= tgl_indo($row['tmt_golongan']) ?></td> <td class="text-center">
                                 <a href="form.php?id=<?= $row['id'] ?>" class="btn btn-warning btn-sm text-white" title="Edit"><i class="fas fa-edit"></i></a>
-                                <a href="proses.php?hapus=<?php echo $row['id']; ?>" 
-                                   onclick="return confirm('Apakah Anda yakin ingin menghapus data ini? Semua data keluarga juga akan terhapus.');" 
-                                   style="color: red;">
-                                   Hapus
-                                </a>
+                                <a href="proses.php?aksi=hapus&id=<?= $row['id'] ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus data ini? Semua data keluarga juga akan terhapus.')" title="Hapus"><i class="fas fa-trash"></i></a>
                                 <a href="cetak_sktk.php?id=<?= $row['id'] ?>" class="btn btn-success btn-sm" title="Cetak"><i class="fas fa-print"></i></a>
                             </td>
                         </tr>
