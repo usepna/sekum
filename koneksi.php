@@ -2,7 +2,7 @@
 // koneksi.php
 $host = 'k0kc04o4gswwoggo0o04440s'; 
 $user = 'mysql'; 
-$pass = '60jlkD9DXehj1cWq7ncfMa6UdGh8Qgq5YxWKM5EmtDnEaqbDXUJYlg5lw5thLdfd'; 
+$pass = '60jlkD9DXehj1cWq7ncfMa6UdGh8Qgq5YxWKM5EmtDnEaqbDXUJYIg5Iw5thLdfd'; 
 $db   = 'default'; 
 
 $conn = mysqli_connect($host, $user, $pass, $db);
@@ -22,6 +22,7 @@ function tgl_indo($tanggal){
     return $split[2] . ' ' . $bulan[ (int)$split[1] ] . ' ' . $split[0];
 }
 ?>
+
 
 
 
