@@ -99,6 +99,24 @@ if (isset($_POST['simpan'])) {
         }
     }
 
+    // --- FITUR HAPUS DATA ---
+    if (isset($_GET['hapus'])) {
+        $id_hapus = mysqli_real_escape_string($conn, $_GET['hapus']);
+        
+        // 1. Hapus data di tabel relasi terlebih dahulu
+        mysqli_query($conn, "DELETE FROM pasangan WHERE pegawai_id = '$id_hapus'");
+        mysqli_query($conn, "DELETE FROM anak WHERE pegawai_id = '$id_hapus'");
+        
+        // 2. Hapus data utama di tabel pegawai
+        $query_hapus = "DELETE FROM pegawai WHERE id = '$id_hapus'";
+        
+        if (mysqli_query($conn, $query_hapus)) {
+            echo "<script>alert('Data berhasil dihapus!'); window.location='index.php';</script>";
+        } else {
+            die("Gagal menghapus data: " . mysqli_error($conn));
+        }
+        exit();
+    }
     // --- SIMPAN ANAK ---
     mysqli_query($conn, "DELETE FROM anak WHERE pegawai_id=$id");
     if(isset($_POST['nm_anak'])) {
@@ -128,3 +146,4 @@ if (isset($_POST['simpan'])) {
 }
 ob_end_flush();
 ?>
+
