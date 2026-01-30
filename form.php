@@ -63,7 +63,20 @@ if ($id) {
                             <div class="col-md-6"><label>Tempat Lahir</label><input type="text" name="tempat_lahir" class="form-control" value="<?= $p['tempat_lahir']??'' ?>"></div>
                             <div class="col-md-6"><label>Tanggal Lahir</label><input type="date" name="tanggal_lahir" class="form-control" value="<?= $p['tanggal_lahir']??'' ?>"></div>
                             <div class="col-md-4"><label>Jenis Kelamin</label><select name="jenis_kelamin" class="form-select"><option value="Laki-laki" <?= ($p['jenis_kelamin']??'')=='Laki-laki'?'selected':'' ?>>Laki-laki</option><option value="Perempuan" <?= ($p['jenis_kelamin']??'')=='Perempuan'?'selected':'' ?>>Perempuan</option></select></div>
-                            <div class="col-md-4"><label>Agama</label><input type="text" name="agama" class="form-control" value="<?= $p['agama']??'' ?>"></div>
+                            <div class="col-md-4">
+							    <label class="form-label">Agama</label>
+							    <select name="agama" class="form-select">
+							        <option value="">-- Pilih Agama --</option>
+							        <?php 
+							        $list_agama = ['Islam', 'Kristen Protestan', 'Katolik', 'Hindu', 'Buddha', 'Khonghucu'];
+							        foreach ($list_agama as $ag) {
+							            // Cek jika data database sama dengan opsi, maka tambahkan attribute 'selected'
+							            $selected = ($p['agama'] ?? '') == $ag ? 'selected' : '';
+							            echo "<option value='$ag' $selected>$ag</option>";
+							        }
+							        ?>
+							    </select>
+							</div>
                             <div class="col-md-4"><label>Kebangsaan</label><input type="text" name="kebangsaan" class="form-control" value="<?= $p['kebangsaan']??'Indonesia' ?>"></div>
                             
                             <div class="col-12"><label>Instansi</label><input type="text" name="instansi_induk" class="form-control" value="<?= $p['instansi_induk']??'' ?>"></div>
@@ -302,4 +315,5 @@ function addAnak2(){
 }
 </script>
 </body>
+
 </html>
