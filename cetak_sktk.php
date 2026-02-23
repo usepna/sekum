@@ -146,10 +146,10 @@ while($r = mysqli_fetch_assoc($q_anak)) {
                 </tbody>
             </table>
         </div></div>
-        <div class="point-row"><div class="point-label">d.</div><div class="point-content">mempunyai anak-anak seperti dalam daftar di sebelah ini yaitu:<div style="margin-top:5px;">i. ANAK KANDUNG (ak), ANAK TIRI (at), dan ANAK ANGKAT (aa) yang masih menjadi tanggungan...</div><div style="margin-top:5px;">ii. ANAK KANDUNG (ak), ANAK TIRI (at), dan ANAK ANGKAT (aa) yang masih menjadi tanggungan tetapi tidak masuk...</div></div></div>
+        <div class="point-row"><div class="point-label">d.</div><div class="point-content">mempunyai anak-anak seperti dalam daftar di sebelah ini yaitu:<div style="margin-top:5px;">i. ANAK KANDUNG (ak), ANAK TIRI (at), dan ANAK ANGKAT (aa) yang masih menjadi tanggungan, belum mempunyai pekerjaan sendiri dan masuk dalam daftar gaji</div><div style="margin-top:5px;">ii. ANAK KANDUNG (ak), ANAK TIRI (at), dan ANAK ANGKAT (aa) yang masih menjadi tanggungan tetapi tidak masuk dalam daftar gaji</div></div></div>
         <div class="point-row" style="margin-top:5px;"><div class="point-label">e.</div><div class="point-content">Jumlah anak seluruhnya : <?= $peg['jumlah_anak_seluruhnya'] ?> orang (yang menjadi tanggungan termasuk yang tidak masuk dalam daftar gaji).</div></div>
 
-        <p class="text-justify" style="margin-top:15px; font-size:10pt;">Keterangan ini saya buat dengan sesungguhnya...</p>
+        <p class="text-justify" style="margin-top:15px; font-size:10pt;">keterangan ini saya buat dengan sesungguhnya dan apabila keterangan ini ternyata tidak benar (palsu), saya bersedia dituntut di muka pengadilan berdasarkan Undang-undang yang berlaku, dan bersedia mengembalikan semua uang tunjangan anak yang telah saya terima yang seharusnya bukan menjadi hak saya.</p>
 
         <table class="sig-table">
             <tr><td width="50%">Mengetahui,<br>a.n. Kepala Dinas Perumahan dan Kawasan Permukiman<br>Kota Bandung<br><?= $pej['jabatan'] ?></td><td width="50%">Bandung, <?= tgl_indo(date('Y-m-d')) ?><br>Yang menerangkan,</td></tr>
@@ -200,4 +200,5 @@ while($r = mysqli_fetch_assoc($q_anak)) {
         </div>
     </div>
 </body>
+
 </html>
