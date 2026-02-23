@@ -90,8 +90,8 @@ if ($id) {
                             <div class="col-12"><label>Alamat</label><textarea name="alamat_lengkap" class="form-control"><?= $p['alamat_lengkap']??'' ?></textarea></div>
                             
                             <div class="col-md-6"><label>Jabatan Sampingan</label><input type="text" name="jabatan_sampingan" class="form-control" value="<?= $p['jabatan_sampingan']??'-' ?>"></div>
-                            <div class="col-md-6"><label>Penghasilan Sampingan</label><input type="number" name="penghasilan_sampingan" class="form-control" value="<?= $p['penghasilan_sampingan']??0 ?>"></div>
-                            <div class="col-md-6"><label>Pensiun Janda</label><input type="number" name="pensiun_janda_rp" class="form-control" value="<?= $p['pensiun_janda_rp']??0 ?>"></div>
+                            <div class="col-md-6"><label>Penghasilan Sampingan</label><input type="text" name="penghasilan_sampingan" class="form-control" value="<?= $p['penghasilan_sampingan']??0 ?>"></div>
+                            <div class="col-md-6"><label>Pensiun Janda</label><input type="text" name="pensiun_janda_rp" class="form-control" value="<?= $p['pensiun_janda_rp']??0 ?>"></div>
                             <div class="col-md-6"><label>Jml Anak (Poin e)</label><input type="number" name="jumlah_anak_seluruhnya" class="form-control" value="<?= $p['jumlah_anak_seluruhnya']??0 ?>"></div>
                         </div>
 						<div class="row">
@@ -125,7 +125,7 @@ if ($id) {
                                     <td><input type="date" name="lhr_pas[]" class="form-control form-control-xs" value="<?= $ps['tanggal_lahir'] ?>"></td>
                                     <td><input type="date" name="nik_pas[]" class="form-control form-control-xs" value="<?= $ps['tanggal_perkawinan'] ?>"></td>
                                     <td><input type="text" name="job_pas[]" class="form-control form-control-xs" value="<?= $ps['pekerjaan'] ?>"></td>
-                                    <td><input type="number" name="inc_pas[]" class="form-control form-control-xs" value="<?= $ps['penghasilan_sebulan'] ?>"></td>
+                                    <td><input type="text" name="inc_pas[]" class="form-control form-control-xs" value="<?= $ps['penghasilan_sebulan'] ?>"></td>
                                     <td><input type="text" name="ket_pas[]" class="form-control form-control-xs" value="<?= $ps['keterangan'] ?>"></td>
                                     <td><button type="button" class="btn btn-sm btn-danger" onclick="this.closest('tr').remove()">x</button></td>
                                 </tr>
@@ -268,7 +268,7 @@ if ($id) {
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script>
 function addPas(){
-    let row = `<tr><td><input type="text" name="nm_pas[]" class="form-control form-control-xs"></td><td><input type="date" name="lhr_pas[]" class="form-control form-control-xs"></td><td><input type="date" name="nik_pas[]" class="form-control form-control-xs"></td><td><input type="text" name="job_pas[]" class="form-control form-control-xs" value="Ibu Rumah Tangga"></td><td><input type="number" name="inc_pas[]" class="form-control form-control-xs" value="0"></td><td><input type="text" name="ket_pas[]" class="form-control form-control-xs" value="Istri"></td><td><button type="button" class="btn btn-sm btn-danger" onclick="this.closest('tr').remove()">x</button></td></tr>`;
+    let row = `<tr><td><input type="text" name="nm_pas[]" class="form-control form-control-xs"></td><td><input type="date" name="lhr_pas[]" class="form-control form-control-xs"></td><td><input type="date" name="nik_pas[]" class="form-control form-control-xs"></td><td><input type="text" name="job_pas[]" class="form-control form-control-xs" value="Ibu Rumah Tangga"></td><td><input type="text" name="inc_pas[]" class="form-control form-control-xs" value="0"></td><td><input type="text" name="ket_pas[]" class="form-control form-control-xs" value="Istri"></td><td><button type="button" class="btn btn-sm btn-danger" onclick="this.closest('tr').remove()">x</button></td></tr>`;
     document.querySelector('#tblPas tbody').insertAdjacentHTML('beforeend', row);
 }
 
@@ -317,3 +317,4 @@ function addAnak2(){
 </body>
 
 </html>
+
