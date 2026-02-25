@@ -152,7 +152,7 @@ while($r = mysqli_fetch_assoc($q_anak)) {
         <p class="text-justify" style="margin-top:15px; font-size:10pt;">keterangan ini saya buat dengan sesungguhnya dan apabila keterangan ini ternyata tidak benar (palsu), saya bersedia dituntut di muka pengadilan berdasarkan Undang-undang yang berlaku, dan bersedia mengembalikan semua uang tunjangan anak yang telah saya terima yang seharusnya bukan menjadi hak saya.</p>
 
         <table class="sig-table">
-            <tr><td width="50%">Mengetahui,<br>a.n. Kepala Dinas Perumahan dan Kawasan Permukiman<br>Kota Bandung<br><?= $pej['jabatan'] ?></td><td width="50%">Bandung, 25 Desember 2025<br>Yang menerangkan,</td></tr>
+            <tr><td width="50%">Mengetahui,<br>a.n. Kepala Dinas Perumahan dan Kawasan Permukiman<br>Kota Bandung<br><?= $pej['jabatan'] ?></td><td width="50%">Bandung, 31 Desember 2025<br>Yang menerangkan,</td></tr>
             <tr><td style="height:70px;"></td><td></td></tr>
             <tr><td><span class="bold underline upper"><?= $pej['nama_pejabat'] ?></span><br>NIP. <?= $pej['nip'] ?></td><td><span class="bold underline upper"><?= $peg['nama_lengkap'] ?></span><br>NIP. <?= $peg['nip'] ?></td></tr>
         </table>
@@ -202,4 +202,5 @@ while($r = mysqli_fetch_assoc($q_anak)) {
 </body>
 
 </html>
+
 
