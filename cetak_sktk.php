@@ -138,10 +138,22 @@ while($r = mysqli_fetch_assoc($q_anak)) {
         <div class="point-row"><div class="point-label">b.</div><div class="point-content">mempunyai pensiun / pensiun janda Rp. <?= format_rupiah($peg['pensiun_janda_rp']) ?> sebulan</div></div>
         <div class="point-row"><div class="point-label">c.</div><div class="point-content">kawin sah dengan
             <table class="grid-table">
-                <thead><tr><th rowspan="2" width="30">No</th><th rowspan="2">Nama isteri / suami</th><th colspan="2">Tanggal</th><th rowspan="2">Pekerjaan</th><th rowspan="2">Penghasilan</th><th rowspan="2">Ket</th></tr><tr><th>Lahir (Umur)</th><th>Nikah</th></tr></thead>
+                <thead><tr>
+                    <th rowspan="2" width="30">No</th>
+                    <th rowspan="2">Nama isteri / suami</th>
+                    <th colspan="2">Tanggal</th>
+                    <th rowspan="2">Pekerjaan</th>
+                    <th rowspan="2">Ket</th></tr><tr>
+                        <th>Lahir (Umur)</th><th>Nikah</th></tr></thead>
                 <tbody>
                     <?php if(empty($pasangan)): ?><tr><td colspan="7">-</td></tr><?php else: $no=1; foreach($pasangan as $p): $umur = ($p['tanggal_lahir']!='0000-00-00'&&$p['tanggal_lahir']!=NULL)?date_diff(date_create($p['tanggal_lahir']), date_create('today'))->y:'-'; ?>
-                    <tr><td><?= $no++ ?></td><td><?= $p['nama_pasangan'] ?></td><td><?= tgl_indo($p['tanggal_lahir']) ?> (<?= $umur ?> Thn)</td><td><?= tgl_indo($p['tanggal_perkawinan']) ?></td><td><?= $p['pekerjaan'] ?></td><td><?= $p['keterangan'] ?></td></tr>
+                    <tr>
+                        <td><?= $no++ ?></td>
+                        <td><?= $p['nama_pasangan'] ?></td>
+                        <td><?= tgl_indo($p['tanggal_lahir']) ?> (<?= $umur ?> Thn)</td>
+                        <td><?= tgl_indo($p['tanggal_perkawinan']) ?></td>
+                        <td><?= $p['pekerjaan'] ?></td>
+                        <td><?= $p['keterangan'] ?></td></tr>
                     <?php endforeach; endif; ?>
                 </tbody>
             </table>
@@ -202,5 +214,6 @@ while($r = mysqli_fetch_assoc($q_anak)) {
 </body>
 
 </html>
+
 
 
