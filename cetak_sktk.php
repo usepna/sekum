@@ -141,7 +141,7 @@ while($r = mysqli_fetch_assoc($q_anak)) {
                 <thead><tr><th rowspan="2" width="30">No</th><th rowspan="2">Nama isteri / suami</th><th colspan="2">Tanggal</th><th rowspan="2">Pekerjaan</th><th rowspan="2">Penghasilan</th><th rowspan="2">Ket</th></tr><tr><th>Lahir (Umur)</th><th>Nikah</th></tr></thead>
                 <tbody>
                     <?php if(empty($pasangan)): ?><tr><td colspan="7">-</td></tr><?php else: $no=1; foreach($pasangan as $p): $umur = ($p['tanggal_lahir']!='0000-00-00'&&$p['tanggal_lahir']!=NULL)?date_diff(date_create($p['tanggal_lahir']), date_create('today'))->y:'-'; ?>
-                    <tr><td><?= $no++ ?></td><td><?= $p['nama_pasangan'] ?></td><td><?= tgl_indo($p['tanggal_lahir']) ?> (<?= $umur ?> Thn)</td><td><?= tgl_indo($p['tanggal_perkawinan']) ?></td><td><?= $p['pekerjaan'] ?></td><td>Rp. <?= format_rupiah($p['penghasilan_sebulan']) ?></td><td><?= $p['keterangan'] ?></td></tr>
+                    <tr><td><?= $no++ ?></td><td><?= $p['nama_pasangan'] ?></td><td><?= tgl_indo($p['tanggal_lahir']) ?> (<?= $umur ?> Thn)</td><td><?= tgl_indo($p['tanggal_perkawinan']) ?></td><td><?= $p['pekerjaan'] ?></td><td><?= $p['keterangan'] ?></td></tr>
                     <?php endforeach; endif; ?>
                 </tbody>
             </table>
@@ -152,7 +152,7 @@ while($r = mysqli_fetch_assoc($q_anak)) {
         <p class="text-justify" style="margin-top:15px; font-size:10pt;">keterangan ini saya buat dengan sesungguhnya dan apabila keterangan ini ternyata tidak benar (palsu), saya bersedia dituntut di muka pengadilan berdasarkan Undang-undang yang berlaku, dan bersedia mengembalikan semua uang tunjangan anak yang telah saya terima yang seharusnya bukan menjadi hak saya.</p>
 
         <table class="sig-table">
-            <tr><td width="50%">Mengetahui,<br>a.n. Kepala Dinas Perumahan dan Kawasan Permukiman<br>Kota Bandung<br><?= $pej['jabatan'] ?></td><td width="50%">Bandung, <?= tgl_indo(date('Y-m-d')) ?><br>Yang menerangkan,</td></tr>
+            <tr><td width="50%">Mengetahui,<br>a.n. Kepala Dinas Perumahan dan Kawasan Permukiman<br>Kota Bandung<br><?= $pej['jabatan'] ?></td><td width="50%">Bandung, 25 Desember 2025<br>Yang menerangkan,</td></tr>
             <tr><td style="height:70px;"></td><td></td></tr>
             <tr><td><span class="bold underline upper"><?= $pej['nama_pejabat'] ?></span><br>NIP. <?= $pej['nip'] ?></td><td><span class="bold underline upper"><?= $peg['nama_lengkap'] ?></span><br>NIP. <?= $peg['nip'] ?></td></tr>
         </table>
@@ -202,3 +202,4 @@ while($r = mysqli_fetch_assoc($q_anak)) {
 </body>
 
 </html>
+
