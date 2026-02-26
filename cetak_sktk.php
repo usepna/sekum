@@ -46,6 +46,12 @@ while($r = mysqli_fetch_assoc($q_anak)) {
             box-sizing: border-box; position: relative;
         }
 
+        /* Menjamin teks nama selalu rata kiri dengan sedikit jarak dari garis */
+        .text-left {
+            text-align: left !important;
+            padding-left: 5px; 
+        }
+
         /* CSS Print Magic */
         @media print {
             body { background: none; padding: 0; margin: 0; }
@@ -184,7 +190,18 @@ while($r = mysqli_fetch_assoc($q_anak)) {
             </thead>
             <tbody>
                 <?php if(empty($anak1)): ?><tr><td colspan="12" style="height:30px;">-</td></tr><?php else: $no=1; foreach($anak1 as $a): ?>
-                <tr><td><?=$no++?></td><td><?=$a['nama_anak']?></td><td><?=$a['status_anak']?></td><td><?=tgl_indo($a['tanggal_lahir'])?></td><td><?=$a['status_belum_kawin']?></td><td><?=$a['sekolah_kuliah_pada']?></td><td><?=$a['tidak_dapat_beasiswa']=='Ya'?'-':'Dapat'?></td><td><?=$a['tidak_dapat_ikatan_dinas']=='Ya'?'-':'Ada'?></td><td><?=$a['nama_ayah']?></td><td><?=$a['nama_ibu']?></td><td><?=tgl_indo($a['tgl_wafat_cerai_ortu'])?></td><td><?=$a['keterangan']?></td></tr>
+                <tr>
+                    <td><?=$no++?></td>
+                    <td class="text-left"><?=$a['nama_anak']?></td>
+                    <td><?=$a['status_anak']?></td>
+                    <td><?=tgl_indo($a['tanggal_lahir'])?></td>
+                    <td><?=$a['status_belum_kawin']?></td>
+                    <td><?=$a['sekolah_kuliah_pada']?></td>
+                    <td><?=$a['tidak_dapat_beasiswa']=='Ya'?'-':'Dapat'?></td>
+                    <td><?=$a['tidak_dapat_ikatan_dinas']=='Ya'?'-':'Ada'?></td>
+                    <td><?=$a['nama_ayah']?></td><td><?=$a['nama_ibu']?></td>
+                    <td><?=tgl_indo($a['tgl_wafat_cerai_ortu'])?></td>
+                    <td><?=$a['keterangan']?></td></tr>
                 <?php endforeach; endif; ?>
             </tbody>
         </table>
@@ -199,8 +216,14 @@ while($r = mysqli_fetch_assoc($q_anak)) {
                 <tr><th>Beasiswa</th><th>Ikatan Dinas</th></tr>
             </thead>
             <tbody>
-                <?php if(empty($anak2)): ?><tr><td colspan="10" style="height:30px;">-</td></tr><?php else: $no=1; foreach($anak2 as $a): ?>
-                <tr><td><?=$no++?></td><td><?=$a['nama_anak']?></td><td><?=$a['status_anak']?></td><td><?=tgl_indo($a['tanggal_lahir'])?></td><td><?=$a['status_belum_kawin']?></td><td><?=$a['sekolah_kuliah_pada']?></td><td><?=$a['tidak_dapat_beasiswa']=='Ya'?'-':'Dapat'?></td><td><?=$a['tidak_dapat_ikatan_dinas']=='Ya'?'-':'Ada'?></td><td><?=$a['status_bekerja']?></td><td><?=$a['keterangan']?></td></tr>
+                <?php if(empty($anak2)): ?><tr>
+                    <td colspan="10" style="height:30px;">-</td>
+                </tr><?php else: $no=1; foreach($anak2 as $a): ?>
+                <tr>
+                    <td><?=$no++?></td>
+                    <td class="text-left"><?=$a['nama_anak']?></td>
+                    <td ><?=$a['status_anak']?></td>
+                    <td><?=tgl_indo($a['tanggal_lahir'])?></td><td><?=$a['status_belum_kawin']?></td><td><?=$a['sekolah_kuliah_pada']?></td><td><?=$a['tidak_dapat_beasiswa']=='Ya'?'-':'Dapat'?></td><td><?=$a['tidak_dapat_ikatan_dinas']=='Ya'?'-':'Ada'?></td><td><?=$a['status_bekerja']?></td><td><?=$a['keterangan']?></td></tr>
                 <?php endforeach; endif; ?>
             </tbody>
         </table>
@@ -214,6 +237,7 @@ while($r = mysqli_fetch_assoc($q_anak)) {
 </body>
 
 </html>
+
 
 
 
