@@ -155,7 +155,7 @@ while($r = mysqli_fetch_assoc($q_anak)) {
                     <?php if(empty($pasangan)): ?><tr><td colspan="7">-</td></tr><?php else: $no=1; foreach($pasangan as $p): $umur = ($p['tanggal_lahir']!='0000-00-00'&&$p['tanggal_lahir']!=NULL)?date_diff(date_create($p['tanggal_lahir']), date_create('today'))->y:'-'; ?>
                     <tr>
                         <td><?= $no++ ?></td>
-                        <td><?= $p['nama_pasangan'] ?></td>
+                        <td class="text-left"><?= $p['nama_pasangan'] ?></td>
                         <td><?= tgl_indo($p['tanggal_lahir']) ?> (<?= $umur ?> Thn)</td>
                         <td><?= tgl_indo($p['tanggal_perkawinan']) ?></td>
                         <td><?= $p['pekerjaan'] ?></td>
@@ -237,6 +237,7 @@ while($r = mysqli_fetch_assoc($q_anak)) {
 </body>
 
 </html>
+
 
 
 
